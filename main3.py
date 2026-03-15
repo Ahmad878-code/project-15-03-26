@@ -15,8 +15,6 @@ class FruitQuiz:
                 print("Correct!")
             else:
                 print(f"Wrong! The correct answer is {colour}.")
-            play_again = input("Do you want to play again? (yes/no): ").lower()
-            if play_again != "yes":
-                print("Thanks for playing!")
-                break
+game = FruitQuiz()
+game.quiz()
 
